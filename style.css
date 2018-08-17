@@ -1,0 +1,85 @@
+/* Pink wireframe for layout help */
+* {
+    border: 1px solid;
+    border-color: pink;
+}
+
+/* All readable content fits within this 960px container */
+.page-box {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Main content container */
+.row {
+    width: 100%;
+}
+
+/* Three columns to fit into the content container */
+.column-1 {
+    width: 33%;
+}
+
+.column-2 {
+    width: 66%;
+}
+
+.column-3 {
+    width: 100%;
+}
+/* End columns */
+
+/* Header styling */
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header-content {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* Name plate styling */
+.nameplate {
+    display: flex;
+    height: 70px;
+}
+
+/* Nav Container styling */
+.nav {
+    display: flex;
+    height: 70px;
+}
+
+/* Nav item styling */
+.nav-item {
+    display: flex;
+    position: relative;
+}
+
+/* Content Styling */
+.content {
+    float: left;
+}
+
+p{
+    display: inline-block;
+}
+.inline-block-img {
+    float: left;
+}
+
+/* Footer styling */
+.footer {
+    height: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footer-content {
+    width: 960px;
+    margin: 0 auto;
+}
