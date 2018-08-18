@@ -1,5 +1,6 @@
 /** Comment/uncomment to help debug layout **/
-/** * {
+/**
+ * {
     border: 1px solid;
     border-color: #E9E8E8;
 }
@@ -125,4 +126,49 @@ body {
     height: 30px;
     margin: 0 auto;
     display: flex;
+}
+
+/********************************
+    Portfolio Content Styling
+*********************************/
+.folio-row {
+
+}
+.folio-column {
+    float: left;
+
+}
+
+/** Column padding between folio columns and rows**/
+.folio-row,
+.folio-row > .folio-column {
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+.folio-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.folio-tile {
+    position: relative;
+
+}
+.folio-label {
+    background-color: #4aaaa5;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+.folio-label span {
+    font-family: 'Georgia', Times, Times New Roman, serif;   
+    color: #ffffff;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin: 0 auto;
 }
