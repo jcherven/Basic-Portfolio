@@ -1,8 +1,12 @@
+/** Comment/uncomment to help debug layout **/
 /** * {
     border: 1px solid;
     border-color: #E9E8E8;
-} **/
+}
+**/
+
 body {
+    /** Not using a reset/normalize, so clear the window margin in some browsers **/
     margin: 0;
 }
 
@@ -37,8 +41,8 @@ body {
 }
 .nameplate span {
     margin: 0 auto;
-    font-size: xx-large;
-    font-style: 
+    font-size: 2em;
+    font-weight: bold;
 }
 
 /* Nav Container styling */
@@ -49,11 +53,7 @@ body {
     align-items: center;
 }
 
-/* Nav item styling */
-.nav-item {
-}
-
-.nav-item a {
+#nav-item {
     font-family: 'Arial', 'Helvetica-Neue', Helvetica, sans-serif;
     color: #777777;
     text-decoration: none;
