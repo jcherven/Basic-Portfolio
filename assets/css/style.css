@@ -131,9 +131,6 @@ body {
 /********************************
     Portfolio Content Styling
 *********************************/
-.folio-row {
-
-}
 .folio-column {
     float: left;
 
@@ -171,4 +168,19 @@ body {
     font-weight: lighter;
     margin-top: 10px;
     margin: 0 auto;
+}
+
+/****************************
+    Contact Form Styling
+*****************************/
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
 }
